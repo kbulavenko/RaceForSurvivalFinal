@@ -15,6 +15,16 @@
 		193D79991EF50EC20016AD45 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 193D79831EF50EC20016AD45 /* GameScene.sks */; };
 		193D799A1EF50EC20016AD45 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193D79841EF50EC20016AD45 /* GameScene.swift */; };
 		193D799B1EF50EC20016AD45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 193D79851EF50EC20016AD45 /* Assets.xcassets */; };
+		193D79A31EF513340016AD45 /* CarBegin1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 193D79A21EF513340016AD45 /* CarBegin1.mp3 */; };
+		193D79A51EF513780016AD45 /* RFSMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 193D79A41EF513780016AD45 /* RFSMenuScene.sks */; };
+		193D79A71EF513C50016AD45 /* RFSMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193D79A61EF513C50016AD45 /* RFSMenuScene.swift */; };
+		193D79A91EF516560016AD45 /* RFSTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 193D79A81EF516560016AD45 /* RFSTileSet.sks */; };
+		193D79AC1EF536B70016AD45 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 193D79AA1EF536B70016AD45 /* lose.mp3 */; };
+		193D79AD1EF536B70016AD45 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 193D79AB1EF536B70016AD45 /* win.mp3 */; };
+		197D861D1EF88D920050C3BE /* RFSLeaderBoardTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197D861C1EF88D920050C3BE /* RFSLeaderBoardTableView.swift */; };
+		197D861F1EF88E550050C3BE /* LeaderBoard.sks in Resources */ = {isa = PBXBuildFile; fileRef = 197D861E1EF88E550050C3BE /* LeaderBoard.sks */; };
+		197D86211EF88E950050C3BE /* RFSLeaderBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197D86201EF88E950050C3BE /* RFSLeaderBoard.swift */; };
+		19DC2B531EFB05880083CA71 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DC2B521EFB05880083CA71 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +38,16 @@
 		193D79921EF50EC20016AD45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		193D79951EF50EC20016AD45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		193D79971EF50EC20016AD45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		193D79A21EF513340016AD45 /* CarBegin1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CarBegin1.mp3; sourceTree = "<group>"; };
+		193D79A41EF513780016AD45 /* RFSMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = RFSMenuScene.sks; path = ../RFSMenuScene.sks; sourceTree = "<group>"; };
+		193D79A61EF513C50016AD45 /* RFSMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RFSMenuScene.swift; path = ../RFSMenuScene.swift; sourceTree = "<group>"; };
+		193D79A81EF516560016AD45 /* RFSTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RFSTileSet.sks; sourceTree = "<group>"; };
+		193D79AA1EF536B70016AD45 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		193D79AB1EF536B70016AD45 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		197D861C1EF88D920050C3BE /* RFSLeaderBoardTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFSLeaderBoardTableView.swift; sourceTree = "<group>"; };
+		197D861E1EF88E550050C3BE /* LeaderBoard.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LeaderBoard.sks; sourceTree = "<group>"; };
+		197D86201EF88E950050C3BE /* RFSLeaderBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RFSLeaderBoard.swift; sourceTree = "<group>"; };
+		19DC2B521EFB05880083CA71 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +64,7 @@
 		193D797C1EF50EC20016AD45 = {
 			isa = PBXGroup;
 			children = (
+				193D79A11EF5130E0016AD45 /* Sounds */,
 				193D79811EF50EC20016AD45 /* Shared */,
 				193D798C1EF50EC20016AD45 /* iOS */,
 				193D798B1EF50EC20016AD45 /* Products */,
@@ -56,7 +77,14 @@
 				193D79821EF50EC20016AD45 /* Actions.sks */,
 				193D79831EF50EC20016AD45 /* GameScene.sks */,
 				193D79841EF50EC20016AD45 /* GameScene.swift */,
+				19DC2B521EFB05880083CA71 /* Car.swift */,
+				197D861C1EF88D920050C3BE /* RFSLeaderBoardTableView.swift */,
+				197D861E1EF88E550050C3BE /* LeaderBoard.sks */,
+				197D86201EF88E950050C3BE /* RFSLeaderBoard.swift */,
+				193D79A41EF513780016AD45 /* RFSMenuScene.sks */,
+				193D79A61EF513C50016AD45 /* RFSMenuScene.swift */,
 				193D79851EF50EC20016AD45 /* Assets.xcassets */,
+				193D79A81EF516560016AD45 /* RFSTileSet.sks */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -79,6 +107,16 @@
 				193D79971EF50EC20016AD45 /* Info.plist */,
 			);
 			path = iOS;
+			sourceTree = "<group>";
+		};
+		193D79A11EF5130E0016AD45 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				193D79AA1EF536B70016AD45 /* lose.mp3 */,
+				193D79AB1EF536B70016AD45 /* win.mp3 */,
+				193D79A21EF513340016AD45 /* CarBegin1.mp3 */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +180,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				193D79991EF50EC20016AD45 /* GameScene.sks in Resources */,
+				193D79A51EF513780016AD45 /* RFSMenuScene.sks in Resources */,
+				193D79AC1EF536B70016AD45 /* lose.mp3 in Resources */,
+				193D79A91EF516560016AD45 /* RFSTileSet.sks in Resources */,
+				197D861F1EF88E550050C3BE /* LeaderBoard.sks in Resources */,
 				193D79931EF50EC20016AD45 /* Main.storyboard in Resources */,
+				193D79AD1EF536B70016AD45 /* win.mp3 in Resources */,
 				193D79981EF50EC20016AD45 /* Actions.sks in Resources */,
+				193D79A31EF513340016AD45 /* CarBegin1.mp3 in Resources */,
 				193D79961EF50EC20016AD45 /* LaunchScreen.storyboard in Resources */,
 				193D799B1EF50EC20016AD45 /* Assets.xcassets in Resources */,
 			);
@@ -156,9 +200,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				197D861D1EF88D920050C3BE /* RFSLeaderBoardTableView.swift in Sources */,
 				193D799A1EF50EC20016AD45 /* GameScene.swift in Sources */,
 				193D79901EF50EC20016AD45 /* GameViewController.swift in Sources */,
 				193D798E1EF50EC20016AD45 /* AppDelegate.swift in Sources */,
+				193D79A71EF513C50016AD45 /* RFSMenuScene.swift in Sources */,
+				19DC2B531EFB05880083CA71 /* Car.swift in Sources */,
+				197D86211EF88E950050C3BE /* RFSLeaderBoard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,10 +325,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 4NUUXC6BSC;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KonstantinBulavenko.RaceForSurvivalFinal;
 				PRODUCT_NAME = RaceForSurvivalFinal;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -294,10 +343,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 4NUUXC6BSC;
 				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KonstantinBulavenko.RaceForSurvivalFinal;
 				PRODUCT_NAME = RaceForSurvivalFinal;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -324,6 +374,7 @@
 				193D79A01EF50EC20016AD45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
